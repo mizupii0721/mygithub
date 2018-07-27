@@ -5,7 +5,7 @@
 #include  <stdio.h>
 #include  <stdlib.h>
 
-/*--- srcからの入力をタブを展開してdstへ出力 ---*/
+/*-- srcからの入力をタブを展開してdstへ出力 --*/
 void detab(FILE *src, FILE *dst, int width)
 {
 	int	 ch;
